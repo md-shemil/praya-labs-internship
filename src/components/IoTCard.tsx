@@ -67,7 +67,7 @@ const IoTCard: React.FC<IoTCardProps> = ({ data }) => {
             </svg>
             <span className="text-gray-600">Duration:</span>
             <span className="ml-2 font-semibold text-gray-800">
-              {data.duration} ms
+              {data.duration} s
             </span>
           </div>
 
