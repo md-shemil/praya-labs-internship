@@ -50,7 +50,7 @@ const DurationForm: React.FC<DurationFormProps> = ({ onUpdateDuration }) => {
       <div className="flex flex-col sm:flex-row gap-3">
         <div className="flex-grow">
           <label htmlFor="duration" className="block text-sm font-medium text-gray-700 mb-1">
-            New Duration (ms)
+            New Duration (s)
           </label>
           <input
             type="number"
